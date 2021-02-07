@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+    font-weight: 700;
+    color:rgb(106, 214, 44);
+}
+#foods{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.food{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+}
+.food-name{
+    color: rgb(107, 94, 94);
+    font-size: 60px;
+}
+
+#foodDetail img{
+    width: 250px;
+}
