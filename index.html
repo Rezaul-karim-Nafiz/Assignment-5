@@ -8,10 +8,22 @@
     <title>Hungry Monster</title>
 </head>
 <body>
+    <header>
+        <div class="logo">HungryMonster</div>
+        <div class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Recipes</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </div>
+    </header>
     <div class="searchFood">
         <input type="text" id="searchField">
         <button onclick='searchFood()'>Search</button>
     </div>
+    <h3 class="error" id="alertError"></h3>
     <div id="ingredientsInfo"></div> 
     <div id="foodContainer"></div> 
     <script src="app.js"></script>
