@@ -9,12 +9,12 @@ header .logo{
     margin-top: 20px;
     font-weight: bold;
     color: #47e054;
-    font-size: 25px;
+    font-size: 26px;
 }
 header .nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 22px;
 }
 header .nav ul li a{
     text-decoration: none;
