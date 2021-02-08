@@ -1,30 +1,66 @@
-.header{
-    text-align: center;
-    font-weight: 700;
-    color:rgb(106, 214, 44);
+body{
+    padding:0 100px;
 }
-#foods{
+.searchFood{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.searchFood input{
+    width: 250px;
+    padding: 10px;
+    outline-color: #5491b9;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.searchFood button{
+    padding: 10px;
+    background-color:#0cdf1e;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; 
+    outline-color: #5491b9;
+}
+#foodContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+    margin-top: 30px;
 }
 .food{
-    border: 1px solid red;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    width: 300px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    width: 90%;
     overflow: hidden;
+    border-radius: 5px;
+    background-color: #f0e6e6;
+
+}
+.food img{
+    width: 100%;
+    border-radius: 5px;
 }
 .food-name{
-    color: rgb(107, 94, 94);
+    color: rgb(250, 245, 245);
     font-size: 60px;
 }
+#ingredientsInfo{
+    display: flex;   
+    align-items: center;
+    justify-content: center; 
+    margin-top: 30px;
+}
+.mealIngredients{
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(236, 227, 227);
 
-#foodDetail img{
-    width: 250px;
+}
+.mealIngredients img{
+    width: 100%;
+    border-radius: 5px;
+    
 }
