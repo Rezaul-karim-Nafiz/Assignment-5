@@ -20,6 +20,7 @@ header .nav ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 22px;
 }
 .searchFood{
     display: flex;
@@ -35,6 +36,7 @@ header .nav ul li a{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     font-size: 20px;
+    outline: none;
 }
 .searchFood button{
     padding: 15px;
@@ -42,7 +44,7 @@ header .nav ul li a{
     border-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; 
-    outline-color: #5491b9;
+    outline:none;
     font-weight: bold;
     font-size: 20px;
 }
